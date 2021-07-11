@@ -22,7 +22,6 @@
 		<!-- Sidemenu Css -->
 		<link href="../../assets/css/sidemenu.css" rel="stylesheet" />
 
-
 		<!-- Bootstrap Css -->
 		<link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -35,9 +34,6 @@
 
 		<!-- p-scroll bar css-->
 		<link href="../../assets/plugins/pscrollbar/pscrollbar.css" rel="stylesheet" />
-
-		<!-- select2 Plugin -->
-		<link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet" />
 
 		<!---Font icons-->
 		<link href="../../assets/css/icons.css" rel="stylesheet"/>
@@ -696,604 +692,572 @@
 				<div class="app-content  my-3 my-md-5">
 					<div class="side-app">
 						<div class="page-header">
-							<h1 class="page-title">Settings</h1>
+							<h1 class="page-title">Users</h1>
 							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Settings</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Settings</li>
+								<li class="breadcrumb-item"><a href="#">Apps</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Users</li>
 							</ol>
 						</div>
 						<div class="row ">
 							<div class="col-lg-12">
-								<div class="panel panel-primary">
-									<div>
-										<div class="user-tabs mb-4">
-											<!-- Tabs -->
-											<ul class="nav panel-tabs">
-												<li class=""><a href="#tab1" class="active" data-toggle="tab">General</a></li>
-												<li><a href="#tab2" data-toggle="tab">Categories</a></li>
-												<li><a href="#tab3" data-toggle="tab">Listing</a></li>
-												<li><a href="#tab4" data-toggle="tab">Advanced</a></li>
-											</ul>
-										</div>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control br-tl-7 br-bl-7" placeholder="">
+									<div class="input-group-append ">
+										<button type="button" class="btn btn-white br-tr-7 br-br-7">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
 									</div>
 								</div>
-
 								<div class="card">
-									<div class="card-body p-0">
-										<div class="tab-content">
-											<div class="tab-pane active " id="tab1">
-												<form class="form-horizontal p-5">
-													<h4 class="font-weight-bold mb-4">Appearance</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0 mt-2"> Favicon</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div class="input-group file-browser">
-																		<input type="text" class="form-control border-right-0 browse-file" placeholder="Upload Images" readonly>
-																		<label class="input-group-btn">
-																		   <span class="btn btn-primary">
-																			Browse <input type="file" style="display: none;" multiple>
-																		  </span>
-																	   </label>
-																	</div>
-																</div>
+									<div class="card-body">
+										<div class="table-responsive border-top">
+											<table class="table card-table table-bordered table-hover table-vcenter">
+												<tbody>
+												<tr>
+													<th class="w-1"></th>
+													<th class="w-1"></th>
+													<th>Name</th>
+													<th>Designation</th>
+													<th>Progress</th>
+													<th></th>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/25.jpg"></span></td>
+													<td>Jane Pearson</td>
+													<td class="">Web Designer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-success" role="progressbar" data-transitiongoal="45" aria-valuenow="45" style="width: 45%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Twitter Id</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<input type="text" class="form-control" placeholder="https://twitter.com/Applist">
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/male/9.jpg"></span></td>
+													<td>Jason Porter</td>
+													<td class="">App Developer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-primary" role="progressbar" data-transitiongoal="67" aria-valuenow="67" style="width: 67%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Facebook Id</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<input type="text" class="form-control" placeholder="https://www.facebook.com/Applist">
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/25.jpg"></span></td>
+													<td>Teresa Wood</td>
+													<td class="">Accountant</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-pink" role="progressbar" data-transitiongoal="56" aria-valuenow="56" style="width: 56%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label">Analytics code</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<textarea class="form-control" name="example-textarea-input" rows="4" placeholder=""></textarea>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/16.jpg"></span></td>
+													<td>Mary Butler</td>
+													<td class="">UI Designer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-warning" role="progressbar" data-transitiongoal="76" aria-valuenow="76" style="width: 76%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<h4 class="font-weight-bold mt-5 mb-4">Messages</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label">New Apps</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<textarea class="form-control" name="example-textarea-input" rows="4" placeholder=""></textarea>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/27.jpg"></span></td>
+													<td>Janice Lane</td>
+													<td class="">Content Writer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-danger" role="progressbar" data-transitiongoal="67" aria-valuenow="67" style="width: 67%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label">Membership</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<textarea class="form-control" name="example-textarea-input" rows="4" placeholder=""></textarea>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/male/26.jpg"></span></td>
+													<td>Anthony Miller</td>
+													<td class="">Recuriter</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-info" role="progressbar" data-transitiongoal="40" aria-valuenow="40" style="width: 40%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group mb-0">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label">Terms</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<textarea class="form-control" name="example-textarea-input" rows="4" placeholder=""></textarea>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/9.jpg"></span></td>
+													<td>Denise Elliott</td>
+													<td class="">Manger</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="30" aria-valuenow="30" style="width: 30%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-												</form>
-												<div class="card-footer">
-													<button type="submit" class="btn btn-primary waves-effect waves-light">Save Changes</button>
-												</div>
-											</div>
-											<div class="tab-pane " id="tab2">
-												<form class="form-horizontal p-5">
-													<h4 class="font-weight-bold mb-4">Categories page</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Show Count</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Display the number of apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/16.jpg"></span></td>
+													<td>Rose Cook</td>
+													<td class="">Asst.Manger</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-success" role="progressbar" data-transitiongoal="67" aria-valuenow="67" style="width: 67%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Hide Empty</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Category have no apps, don't show it </span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/male/17.jpg"></span></td>
+													<td>Terry Tucker</td>
+													<td class="">Sr.Developer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-primary" role="progressbar" data-transitiongoal="80" aria-valuenow="80" style="width: 80%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Category Depth</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div>
-																		<select class="form-control select2">
-																			<option selected="">1</option>
-																			<option>2</option>
-																			<option>3</option>
-																			<option>4</option>
-																			<option>5</option>
-																		</select>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/6.jpg"></span></td>
+													<td>Grace Knight</td>
+													<td class="">Web Developer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-pink" role="progressbar" data-transitiongoal="45" aria-valuenow="45" style="width: 45%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group mb-0">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Number of Categories</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div>
-																		<select class="form-control select2">
-																			<option selected="">Show All</option>
-																			<option>1</option>
-																			<option>2</option>
-																			<option>3</option>
-																			<option>4</option>
-																			<option>5</option>
-																		</select>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/26.jpg"></span></td>
+													<td>Elizabeth Martin</td>
+													<td class="">App Designer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-warning" role="progressbar" data-transitiongoal="60" aria-valuenow="60" style="width: 60%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-												</form>
-												<div class="card-footer">
-													<button type="submit" class="btn btn-primary waves-effect waves-light">Save Changes</button>
-												</div>
-											</div>
-											<div class="tab-pane" id="tab3">
-												<form class="form-horizontal p-5">
-													<h4 class="font-weight-bold mb-4">General</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Editing</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-																			<span class="custom-control-label">Users to edit their apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/17.jpg"></span></td>
+													<td>Michelle Schultz</td>
+													<td class="">Jr. Assitant</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-danger" role="progressbar" data-transitiongoal="46" aria-valuenow="46" style="width: 46%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Relisting</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-																			<span class="custom-control-label">Users Relist and Pay for their Expire Apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/21.jpg"></span></td>
+													<td>Crystal Austin</td>
+													<td class="">Web Developer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-purple" role="progressbar" data-transitiongoal="75" aria-valuenow="75" style="width: 75%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0 mt-2">Listing Period</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div class="w-100">
-																		<input type="text" class="form-control" placeholder="30">
-																		<div class="text-muted">In These days Each Apps will be listed</div>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/male/32.jpg"></span></td>
+													<td>Douglas Ray</td>
+													<td class="">Sr. Assistant</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-info" role="progressbar" data-transitiongoal="56" aria-valuenow="56" style="width: 56%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Parent Posting</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div class="w-100">
-																		<select class="form-control select2">
-																			<option selected="">When Empty</option>
-																			<option>Yes</option>
-																			<option>No</option>
-																		</select>
-																		<div class="text-muted"> Users can post in top level Categories</div>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/12.jpg"></span></td>
+													<td>Teresa Reyes</td>
+													<td class="">App Developer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="54" aria-valuenow="54" style="width: 54%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">View Counter</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-																			<span class="custom-control-label">Display a page views Counter For each apps and blogs</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/4.jpg"></span></td>
+													<td>Emma Wade</td>
+													<td class="">Asst. Manager</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-primary" role="progressbar" data-transitiongoal="67" aria-valuenow="67" style="width: 67%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Gravatar</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Display a User image on their apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/27.jpg"></span></td>
+													<td>Carol Henderson</td>
+													<td class="">Sales Represntative</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-pink" role="progressbar" data-transitiongoal="79" aria-valuenow="79" style="width: 79%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<h4 class="font-weight-bold mb-4 mt-5">Moderate</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Apps</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-																			<span class="custom-control-label">Directly approve and upload every Apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/male/20.jpg"></span></td>
+													<td>Christopher Harvey</td>
+													<td class="">Project Manager</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-warning" role="progressbar" data-transitiongoal="56" aria-valuenow="56" style="width: 56%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Edited Apps</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-																			<span class="custom-control-label">Directly approve and upload User Edited Apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/female/5.jpg"></span></td>
+													<td>Deborah Alvarado</td>
+													<td class="">Developer</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-danger" role="progressbar" data-transitiongoal="67" aria-valuenow="67" style="width: 67%;"></div>
+														</div>
+													</td>
+													<td>
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
+
 															</div>
 														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Expire Apps</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Automatically remove expired Apps</span>
-																		</label>
-																	</div>
-																</div>
+													</td>
+												</tr>
+												<tr>
+													<th>
+														<label class="custom-control custom-checkbox">
+															<input type="checkbox" class="custom-control-input" name="checkbox" value="checkbox">
+															<span class="custom-control-label"></span>
+														</label>
+													</th>
+													<td><span class="avatar avatar-md  d-block brround cover-image" data-image-src="../../assets/images/faces/male/10.jpg"></span></td>
+													<td>Gregory Hunt</td>
+													<td class="">Recuriter</td>
+													<td><div class="progress progress-sm" style="width: 100%;">
+															<div class="progress-bar bg-info" role="progressbar" data-transitiongoal="65" aria-valuenow="65" style="width: 65%;"></div>
+														</div>
+													</td>
+													<td >
+														<div class="item-action dropdown">
+															<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical fs-20 text-dark"></i></a>
+															<div class="dropdown-menu dropdown-menu-right">
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Add </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Edit </a>
+																<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-hard-drive"></i> Save</a>
 															</div>
 														</div>
-													</div>
-													<h4 class="font-weight-bold mb-4 mt-5">Ad Images</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Allow Images</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-																			<span class="custom-control-label">User can upload and display images in their Apps</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Require Images</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Require Images at least one image for one Apps</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Preview Images</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">When mouse over on thumbnail display the larger image</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Max Images</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div class="w-100">
-																		<select class="form-control select2">
-																			<option selected="">1</option>
-																			<option>2</option>
-																			<option>3</option>
-																			<option>4</option>
-																			<option>5</option>
-																			<option>6</option>
-																			<option>7</option>
-																			<option>8</option>
-																			<option>9</option>
-																			<option>10</option>
-																		</select>
-																		<div class="text-muted">Images for Each Apps</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group mb-0">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mt-2">Max Size</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-3 d-block"></i></a>
-																	<div class="w-100">
-																		<select class="form-control select2">
-																			<option>10Kb</option>
-																			<option>100kb</option>
-																			<option>250kb</option>
-																			<option>500kb</option>
-																			<option selected="">1Mb</option>
-																			<option>2.5Mb</option>
-																			<option>5Mb</option>
-																			<option>10Mb</option>
-																			<option>15Mb</option>
-																			<option>20Mb</option>
-																		</select>
-																		<div class="text-muted">Images for Each Apps</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</form>
-												<div class="card-footer">
-													<button type="submit" class="btn btn-primary waves-effect waves-light">Save Changes</button>
-												</div>
-											</div>
-											<div class="tab-pane " id="tab4">
-												<form class="form-horizontal p-5">
-													<h4 class="font-weight-bold mb-4">General</h4>
-													<div class="form-group ">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Set Password</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">User Can Create Their Own Password</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Disable Embeds</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Don't allow embed Styles(videos,images,or any other meida)</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Registered Users</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Reports problems Only allow for Registered Users</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label mb-0">Notification Email</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="custom-controls-stacked">
-																		<label class="custom-control custom-checkbox mb-0">
-																			<input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-																			<span class="custom-control-label">Send me an Email to when problem occurred</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="form-group mb-0">
-														<div class="row">
-															<div class="col-md-3">
-																<label class="form-label">Report Post Values</label>
-															</div>
-															<div class="col-md-9">
-																<div class="d-flex">
-																	<a href="#"><i class="icon icon-question mr-4 mt-1 d-block"></i></a>
-																	<div class="w-100">
-																		<textarea class="form-control" name="example-textarea-input" rows="6" placeholder=""></textarea>
-																		<div class="text-muted"> Report The different Options If you want Available for report Feature</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</form>
-												<div class="card-footer">
-													<button type="submit" class="btn btn-primary waves-effect waves-light">Save Changes</button>
-												</div>
-											</div>
+													</td>
+												</tr>
+												</tbody>
+											</table>
 										</div>
 									</div>
 								</div>
+								<ul class="pagination mb-5">
+									<li class="page-item page-prev disabled">
+										<a class="page-link" href="#" tabindex="-1">Prev</a>
+									</li>
+									<li class="page-item active"><a class="page-link" href="#">1</a></li>
+									<li class="page-item"><a class="page-link" href="#">2</a></li>
+									<li class="page-item"><a class="page-link" href="#">3</a></li>
+									<li class="page-item"><a class="page-link" href="#">4</a></li>
+									<li class="page-item"><a class="page-link" href="#">5</a></li>
+									<li class="page-item page-next">
+										<a class="page-link" href="#">Next</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -1336,17 +1300,10 @@
 		<!--Counters -->
 		<script src="../../assets/plugins/counters/counterup.min.js"></script>
 		<script src="../../assets/plugins/counters/waypoints.min.js"></script>
-		
-		<!--Select2 js -->
-		<script src="../../assets/plugins/select2/select2.full.min.js"></script>
-		<script src="../../assets/js/select2.js"></script>
 
 
 		<!-- Custom Js-->
 		<script src="../../assets/js/admin-custom.js"></script>
-
-		<!-- Browser Js-->
-		<script src="../../assets/js/browser.js"></script>
 
 	</body>
 </html>
