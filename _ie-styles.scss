@@ -1,0 +1,128 @@
+/*------IE css-------*/
+
+.custom-control-label,
+ ::-ms-backdrop {
+	position: static;
+}
+
+.page-title,
+ ::-ms-backdrop {
+	line-height: 3rem;
+}
+
+.media-body,
+.media-left,
+.media-right,
+ ::-ms-backdrop {
+	display: list-item;
+	vertical-align: top;
+}
+
+.media-left,
+.media-right,
+.table-responsive .media-body,
+ ::-ms-backdrop {
+	display: table-cell;
+}
+
+.breadcrumb-3 li,
+ ::-ms-backdrop,
+.breadcrumb-4 li,
+ ::-ms-backdrop,
+.breadcrumb-1 li,
+ ::-ms-backdrop,
+.breadcrumb-2 li,
+ ::-ms-backdrop {
+	display: inline-block;
+	text-align: center;
+}
+
+.iteam-all-icon,
+ ::-ms-backdrop {
+	height: 100%;
+}
+
+.construction-image:before,
+ ::-ms-backdrop {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 1;
+	left: 0;
+	right: 0;
+}
+
+.page-h,
+ ::-ms-backdrop {
+	height: 100%;
+}
+
+.position-absolute,
+ ::-ms-backdrop {
+	position: absolute !important;
+}
+
+.card-img-top1,
+ ::-ms-backdrop {
+	height: 175px;
+}
+.card-img-top2,
+ ::-ms-backdrop {
+	height: 300px;
+}
+.side-app .item2-gl .item-card9-desc a ,
+ ::-ms-backdrop{
+  display: -ms-inline-flexbox; 
+}
+
+.item-card9-img1 ,
+ ::-ms-backdrop{
+	height: 84px !important;
+}
+
+.media-body, .media-left, .media-right ,
+ ::-ms-backdrop{
+	display: block !important;
+}
+#profile-log-switch .table-responsive.border .table tbody,
+ ::-ms-backdrop{
+	display: block !important;
+}
+.table-responsive-1 .table tbody,
+ ::-ms-backdrop{
+	display: block !important;
+}
+
+.bg-card:hover .cat-img i,.bg-card .cat-img i,
+ ::-ms-backdrop{
+	background:transparent !important;
+}
+
+.tab-pane.table-responsive .table .media-body, 
+ ::-ms-backdrop{
+	display:ruby-base !important;
+}
+.tab-pane .table-responsive .table .media-body, 
+ ::-ms-backdrop{
+	display:ruby-base !important;
+}
+.table-responsive.userprof-tab .table .media-body, 
+ ::-ms-backdrop{
+	display:ruby-base !important;
+}
+.my-favadd.table-responsive .table .media-body, 
+ ::-ms-backdrop{
+	display:ruby-base !important;
+}
+.manged-ad.table-responsive .table .media-body, 
+ ::-ms-backdrop{
+	display:ruby-base !important;
+}
+.vidbg-container , 
+ ::-ms-backdrop{
+	direction:ltr;
+}
+
+/*------IE css-------*/
